@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001DC9FE1D5DFED30047987A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DC9FD1D5DFED30047987A /* AppDelegate.swift */; };
+		001DCA001D5DFED30047987A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DC9FF1D5DFED30047987A /* ViewController.swift */; };
+		001DCA031D5DFED30047987A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA011D5DFED30047987A /* Main.storyboard */; };
+		001DCA051D5DFED30047987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA041D5DFED30047987A /* Assets.xcassets */; };
+		001DCA081D5DFED30047987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA061D5DFED30047987A /* LaunchScreen.storyboard */; };
+		001DCA1D1D5E06990047987A /* Boba Fett.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA101D5E06990047987A /* Boba Fett.png */; };
+		001DCA1E1D5E06990047987A /* Darth Vader.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA111D5E06990047987A /* Darth Vader.png */; };
+		001DCA1F1D5E06990047987A /* Emperor Palpatine.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA121D5E06990047987A /* Emperor Palpatine.png */; };
+		001DCA201D5E06990047987A /* Empire_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA131D5E06990047987A /* Empire_Logo.png */; };
+		001DCA211D5E06990047987A /* Han Solo.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA141D5E06990047987A /* Han Solo.png */; };
+		001DCA221D5E06990047987A /* Jabba the Hutt.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA151D5E06990047987A /* Jabba the Hutt.png */; };
+		001DCA241D5E06990047987A /* Leia Organa.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA171D5E06990047987A /* Leia Organa.png */; };
+		001DCA251D5E06990047987A /* Luke Skywalker.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA181D5E06990047987A /* Luke Skywalker.png */; };
+		001DCA271D5E06990047987A /* Rebel Fighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA1A1D5E06990047987A /* Rebel Fighter.png */; };
+		001DCA281D5E06990047987A /* Rebel_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA1B1D5E06990047987A /* Rebel_Logo.png */; };
+		001DCA291D5E06990047987A /* Storm Trooper.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA1C1D5E06990047987A /* Storm Trooper.png */; };
+		001DCA2B1D5E0CD00047987A /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DCA2A1D5E0CD00047987A /* Characters.swift */; };
+		001DCA2D1D5E16A60047987A /* Lando Calrissian.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA2C1D5E16A60047987A /* Lando Calrissian.png */; };
+		001DCA2F1D5E17550047987A /* Nien Nunb.png in Resources */ = {isa = PBXBuildFile; fileRef = 001DCA2E1D5E17550047987A /* Nien Nunb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001DC9FA1D5DFED30047987A /* Star Wars Galaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Galaxy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001DC9FD1D5DFED30047987A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001DC9FF1D5DFED30047987A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		001DCA021D5DFED30047987A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001DCA041D5DFED30047987A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001DCA071D5DFED30047987A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001DCA091D5DFED30047987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001DCA101D5E06990047987A /* Boba Fett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boba Fett.png"; sourceTree = "<group>"; };
+		001DCA111D5E06990047987A /* Darth Vader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darth Vader.png"; sourceTree = "<group>"; };
+		001DCA121D5E06990047987A /* Emperor Palpatine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Emperor Palpatine.png"; sourceTree = "<group>"; };
+		001DCA131D5E06990047987A /* Empire_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Empire_Logo.png; sourceTree = "<group>"; };
+		001DCA141D5E06990047987A /* Han Solo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Han Solo.png"; sourceTree = "<group>"; };
+		001DCA151D5E06990047987A /* Jabba the Hutt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jabba the Hutt.png"; sourceTree = "<group>"; };
+		001DCA171D5E06990047987A /* Leia Organa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leia Organa.png"; sourceTree = "<group>"; };
+		001DCA181D5E06990047987A /* Luke Skywalker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luke Skywalker.png"; sourceTree = "<group>"; };
+		001DCA1A1D5E06990047987A /* Rebel Fighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rebel Fighter.png"; sourceTree = "<group>"; };
+		001DCA1B1D5E06990047987A /* Rebel_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rebel_Logo.png; sourceTree = "<group>"; };
+		001DCA1C1D5E06990047987A /* Storm Trooper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Storm Trooper.png"; sourceTree = "<group>"; };
+		001DCA2A1D5E0CD00047987A /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		001DCA2C1D5E16A60047987A /* Lando Calrissian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lando Calrissian.png"; sourceTree = "<group>"; };
+		001DCA2E1D5E17550047987A /* Nien Nunb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nien Nunb.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001DC9F71D5DFED30047987A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001DC9F11D5DFED30047987A = {
+			isa = PBXGroup;
+			children = (
+				001DC9FC1D5DFED30047987A /* Star Wars Galaxy */,
+				001DC9FB1D5DFED30047987A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001DC9FB1D5DFED30047987A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001DC9FA1D5DFED30047987A /* Star Wars Galaxy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001DC9FC1D5DFED30047987A /* Star Wars Galaxy */ = {
+			isa = PBXGroup;
+			children = (
+				001DC9FD1D5DFED30047987A /* AppDelegate.swift */,
+				001DC9FF1D5DFED30047987A /* ViewController.swift */,
+				001DCA011D5DFED30047987A /* Main.storyboard */,
+				001DCA2A1D5E0CD00047987A /* Characters.swift */,
+				001DCA0F1D5E06990047987A /* Images */,
+				001DCA041D5DFED30047987A /* Assets.xcassets */,
+				001DCA061D5DFED30047987A /* LaunchScreen.storyboard */,
+				001DCA091D5DFED30047987A /* Info.plist */,
+			);
+			path = "Star Wars Galaxy";
+			sourceTree = "<group>";
+		};
+		001DCA0F1D5E06990047987A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				001DCA101D5E06990047987A /* Boba Fett.png */,
+				001DCA111D5E06990047987A /* Darth Vader.png */,
+				001DCA121D5E06990047987A /* Emperor Palpatine.png */,
+				001DCA131D5E06990047987A /* Empire_Logo.png */,
+				001DCA141D5E06990047987A /* Han Solo.png */,
+				001DCA151D5E06990047987A /* Jabba the Hutt.png */,
+				001DCA2C1D5E16A60047987A /* Lando Calrissian.png */,
+				001DCA171D5E06990047987A /* Leia Organa.png */,
+				001DCA181D5E06990047987A /* Luke Skywalker.png */,
+				001DCA2E1D5E17550047987A /* Nien Nunb.png */,
+				001DCA1A1D5E06990047987A /* Rebel Fighter.png */,
+				001DCA1B1D5E06990047987A /* Rebel_Logo.png */,
+				001DCA1C1D5E06990047987A /* Storm Trooper.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001DC9F91D5DFED30047987A /* Star Wars Galaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001DCA0C1D5DFED30047987A /* Build configuration list for PBXNativeTarget "Star Wars Galaxy" */;
+			buildPhases = (
+				001DC9F61D5DFED30047987A /* Sources */,
+				001DC9F71D5DFED30047987A /* Frameworks */,
+				001DC9F81D5DFED30047987A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Wars Galaxy";
+			productName = "Star Wars Galaxy";
+			productReference = 001DC9FA1D5DFED30047987A /* Star Wars Galaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001DC9F21D5DFED30047987A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Deniz Nasif";
+				TargetAttributes = {
+					001DC9F91D5DFED30047987A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 001DC9F51D5DFED30047987A /* Build configuration list for PBXProject "Star Wars Galaxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001DC9F11D5DFED30047987A;
+			productRefGroup = 001DC9FB1D5DFED30047987A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001DC9F91D5DFED30047987A /* Star Wars Galaxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001DC9F81D5DFED30047987A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001DCA1E1D5E06990047987A /* Darth Vader.png in Resources */,
+				001DCA281D5E06990047987A /* Rebel_Logo.png in Resources */,
+				001DCA081D5DFED30047987A /* LaunchScreen.storyboard in Resources */,
+				001DCA201D5E06990047987A /* Empire_Logo.png in Resources */,
+				001DCA291D5E06990047987A /* Storm Trooper.png in Resources */,
+				001DCA251D5E06990047987A /* Luke Skywalker.png in Resources */,
+				001DCA211D5E06990047987A /* Han Solo.png in Resources */,
+				001DCA1F1D5E06990047987A /* Emperor Palpatine.png in Resources */,
+				001DCA051D5DFED30047987A /* Assets.xcassets in Resources */,
+				001DCA221D5E06990047987A /* Jabba the Hutt.png in Resources */,
+				001DCA241D5E06990047987A /* Leia Organa.png in Resources */,
+				001DCA031D5DFED30047987A /* Main.storyboard in Resources */,
+				001DCA271D5E06990047987A /* Rebel Fighter.png in Resources */,
+				001DCA2F1D5E17550047987A /* Nien Nunb.png in Resources */,
+				001DCA1D1D5E06990047987A /* Boba Fett.png in Resources */,
+				001DCA2D1D5E16A60047987A /* Lando Calrissian.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001DC9F61D5DFED30047987A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001DCA001D5DFED30047987A /* ViewController.swift in Sources */,
+				001DCA2B1D5E0CD00047987A /* Characters.swift in Sources */,
+				001DC9FE1D5DFED30047987A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001DCA011D5DFED30047987A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001DCA021D5DFED30047987A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001DCA061D5DFED30047987A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001DCA071D5DFED30047987A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001DCA0A1D5DFED30047987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001DCA0B1D5DFED30047987A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001DCA0D1D5DFED30047987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Star Wars Galaxy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deniznasif.Star-Wars-Galaxy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		001DCA0E1D5DFED30047987A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Star Wars Galaxy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deniznasif.Star-Wars-Galaxy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001DC9F51D5DFED30047987A /* Build configuration list for PBXProject "Star Wars Galaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001DCA0A1D5DFED30047987A /* Debug */,
+				001DCA0B1D5DFED30047987A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001DCA0C1D5DFED30047987A /* Build configuration list for PBXNativeTarget "Star Wars Galaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001DCA0D1D5DFED30047987A /* Debug */,
+				001DCA0E1D5DFED30047987A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001DC9F21D5DFED30047987A /* Project object */;
+}
